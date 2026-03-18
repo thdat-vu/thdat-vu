@@ -7,6 +7,7 @@
 ---
 
 ### 💫 About Me
+- 🧩 **MBTI: INTJ**
 - 🔭 I’m currently focused on building scalable web applications.
 - 🌱 I’m deepening my knowledge in **System Architecture**.
 - 👯 I’m looking to collaborate on projects involving **Java** or **Python**.
@@ -36,4 +37,10 @@
 
 ### 🤝 Connect with me
 <p align="left">
-  <a href="[https://linkedin.com/in/your-username](https://www.linkedin.com/in/thdatvu2404/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="th
+  <a href="https://www.linkedin.com/in/thdatvu2404/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thdat-vu" height="30" width="40" /></a>
+  <a href="mailto:your-email@gmail.com"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="thdat-vu" height="30" width="40" /></a>
+</p>
+
+<p align="center"> 
+  <img src="https://komarev.com/ghpvc/?username=thdat-vu&label=Profile%20views&color=0e75b6&style=flat" alt="thdat-vu" />
+</p>
