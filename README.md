@@ -47,6 +47,4 @@
   </a>
 </p>
 
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=thdat-vu&label=Profile%20views&color=0e75b6&style=flat" alt="thdat-vu" />
-</p>
+
