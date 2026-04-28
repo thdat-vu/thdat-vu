@@ -8,10 +8,9 @@
 
 ### 💫 About Me
 - 🧩 **MBTI: INTJ**
-- 🔭 I’m currently focused on building scalable web applications.
-- 🌱 I’m deepening my knowledge in **System Architecture**.
-- 👯 I’m looking to collaborate on projects involving **Java**, **Python** and **Go**.
-- 💬 Ask me about **Web Development**.
+- 🚀 Driven by an **Indie Hacker** spirit—I thrive on challenges and live by the **"ship fast, perfect later"** philosophy.
+- 👯 I’m looking to collaborate on projects involving **Java**, **Python**, and **Go**.
+- 💬 Ask me about **Web Development**, **AI Apps**.
 - ⚡ Fun fact: My brain runs on a "Coffee-First" architecture. No caffeine, no commits.
 
 ---
