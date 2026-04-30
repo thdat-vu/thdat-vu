@@ -11,7 +11,6 @@
 - 🧠 **MBTI: INTJ** 
 - 🚀 Driven by an **Indie Hacker** spirit—I thrive on building MVPs, shipping fast, and solving real-world problems.
 - 👯 I’m looking to collaborate on projects involving **Java (Spring Boot)**, **Python (AI Agents)**, and **Go**.
-- 💬 Ask me about **Web Development** or **System Design**.
 - ☕ Fun fact: My brain runs on a "Coffee-First" architecture. No caffeine, no commits.
 
 ---
