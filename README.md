@@ -8,7 +8,7 @@
 
 ### 💫 About Me
 
-- 🧠 **MBTI: INTJ** - Strategic thinker, focused on software architecture and product-led development.
+- 🧠 **MBTI: INTJ** 
 - 🚀 Driven by an **Indie Hacker** spirit—I thrive on building MVPs, shipping fast, and solving real-world problems.
 - 👯 I’m looking to collaborate on projects involving **Java (Spring Boot)**, **Python (AI Agents)**, and **Go**.
 - 💬 Ask me about **Web Development** or **System Design**.
