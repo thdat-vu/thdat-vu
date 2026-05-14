@@ -8,10 +8,10 @@
 
 ### 💫 About Me
 
-- 🧠 **MBTI: INTJ** 
-- 🚀 Driven by an **Indie Hacker** spirit—I thrive on building MVPs, shipping fast, and solving real-world problems.
-- 👯 I’m looking to collaborate on projects involving **Java (Spring Boot)**, **Python (AI Agents)**, and **Go**.
-- ☕ Fun fact: My brain runs on a "Coffee-First" architecture. No caffeine, no commits.
+- 🧠 INTJ. I like clear logic, clean systems, and thinking about edge cases.
+- 🛠️ I build full-stack apps end to end and ship them — fast when I can, careful when I should.
+- 💼 Open to roles and side projects in **Java (Spring Boot)**, **Python (AI Agents)**, and **Go**.
+- 📚 I learn by building. Reading docs is not enough until I write the code myself.
 
 ---
 
@@ -38,18 +38,6 @@
     <td>
       <a href="https://github.com/thdat-vu/sport-ink-exe-product-server">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=thdat-vu&repo=sport-ink-exe-product-server&theme=tokyonight" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/thdat-vu/my-ikigai-client-site">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=thdat-vu&repo=my-ikigai-client-site&theme=tokyonight" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/thdat-vu/my-ikigai-server">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=thdat-vu&repo=my-ikigai-server&theme=tokyonight" />
       </a>
     </td>
   </tr>
