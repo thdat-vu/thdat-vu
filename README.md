@@ -32,24 +32,24 @@
   <tr>
     <td>
       <a href="https://github.com/thdat-vu/f1-virtual-engineer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=thdat-vu&repo=f1-virtual-engineer&theme=tokyonight" />
+        <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=f1-virtual-engineer&theme=tokyonight" />
       </a>
     </td>
     <td>
       <a href="https://github.com/thdat-vu/sport-ink-exe-product-server">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=thdat-vu&repo=sport-ink-exe-product-server&theme=tokyonight" />
+        <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=sport-ink-exe-product-server&theme=tokyonight" />
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/thdat-vu/Vmarble-Warehouse-Management-Client">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=thdat-vu&repo=Vmarble-Warehouse-Management-Client&theme=tokyonight" />
+        <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=Vmarble-Warehouse-Management-Client&theme=tokyonight" />
       </a>
     </td>
     <td>
       <a href="https://github.com/thdat-vu/Vmarble-Warehouse-Management-Service">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=thdat-vu&repo=Vmarble-Warehouse-Management-Service&theme=tokyonight" />
+        <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=Vmarble-Warehouse-Management-Service&theme=tokyonight" />
       </a>
     </td>
   </tr>
