@@ -25,10 +25,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
           repositories_forks: yes
-          
-          # Appearance
-          theme: tokyonight
-          
+
           # Output
           filename: github-metrics.svg
           output_action: commit
