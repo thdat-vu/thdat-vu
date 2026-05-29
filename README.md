@@ -6,16 +6,16 @@
 
 ---
 
-### 💫 About Me
+###  About Me
 
-- 🧠 INTJ. I like clear logic, clean systems, and thinking about edge cases.
-- 🛠️ I build full-stack apps end to end and ship them — fast when I can, careful when I should.
-- 💼 Open to roles and side projects in **Java (Spring Boot)**, **Python (AI Agents)**, and **Go**.
-- 📚 I learn by building. Reading docs is not enough until I write the code myself.
+-  INTJ. I like clear logic, clean systems, and thinking about edge cases.
+-  I build full-stack apps end to end and ship them — fast when I can, careful when I should.
+-  Open to roles and side projects in **Java (Spring Boot)**, **Python (AI Agents)**, and **Go**.
+-  I learn by building. Reading docs is not enough until I write the code myself.
 
 ---
 
-### 🛠️ My Tech Stack
+###  My Tech Stack
 
 | Category | Tools & Languages |
 | :--- | :--- |
@@ -26,7 +26,7 @@
 
 ---
 
-### 🚀 Featured Projects
+###  Featured Projects
 
 <table border="0">
   <tr>
@@ -57,7 +57,7 @@
 
 ---
 
-### 📊 GitHub Stats
+###  GitHub Stats
 
 <p align="center">
   <img src="github-metrics.svg" />
@@ -65,7 +65,7 @@
 
 ---
 
-### 🤝 Connect with me
+###  Connect with me
 <p align="left">
   <a href="https://www.linkedin.com/in/thdatvu2404/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="linkedin" height="35" />
