@@ -33,6 +33,10 @@
     <img src="https://skillicons.dev/icons?i=linkedin" alt="linkedin" height="35" />
   </a>
   &nbsp;
+  <a href="mailto:vuthanhdat181@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="gmail" height="35" />
+  </a>
+  &nbsp;
   <a href="https://x.com/DatVT2404" target="_blank">
     <img src="https://skillicons.dev/icons?i=twitter" alt="x" height="35" />
   </a>
