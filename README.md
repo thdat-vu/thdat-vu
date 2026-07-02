@@ -36,7 +36,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/thdat-vu/sport-ink-exe-product-server">
+      <a href="https://github.com/thdat-vu/kanjido">
         <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=kanjido&theme=tokyonight" />
       </a>
     </td>
