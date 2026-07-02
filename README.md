@@ -57,14 +57,6 @@
 
 ---
 
-###  GitHub Stats
-
-<p align="center">
-  <img src="github-metrics.svg" />
-</p>
-
----
-
 ###  Connect with me
 <p align="left">
   <a href="https://www.linkedin.com/in/thdatvu2404/" target="_blank">
