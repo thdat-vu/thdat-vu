@@ -26,36 +26,6 @@
 
 ---
 
-###  Featured Projects
-
-<table border="0">
-  <tr>
-    <td>
-      <a href="https://github.com/thdat-vu/f1-virtual-engineer">
-        <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=f1-virtual-engineer&theme=tokyonight" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/thdat-vu/kanjido">
-        <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=kanjido&theme=tokyonight" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/thdat-vu/Vmarble-Warehouse-Management-Client">
-        <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=Vmarble-Warehouse-Management-Client&theme=tokyonight" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/thdat-vu/Vmarble-Warehouse-Management-Service">
-        <img src="https://github-readme-stats-ten-self-55.vercel.app/api/pin/?username=thdat-vu&repo=Vmarble-Warehouse-Management-Service&theme=tokyonight" />
-      </a>
-    </td>
-  </tr>
-</table>
-
----
 
 ###  Connect with me
 <p align="left">
