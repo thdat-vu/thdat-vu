@@ -10,7 +10,7 @@
 
 -  INTJ. I like clear logic, clean systems, and thinking about edge cases.
 -  I build full-stack apps end to end and ship them — fast when I can, careful when I should.
--  Open to roles and side projects in **Java (Spring Boot)**, **Python (AI Agents)**, and **Go**.
+-  Open to roles and side projects in **Java (Spring Boot)**, **Python (FastAPI)**, and **Go(Gin)**.
 -  I learn by building. Reading docs is not enough until I write the code myself.
 
 ---
