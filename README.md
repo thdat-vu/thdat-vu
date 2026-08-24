@@ -1,56 +1,30 @@
-# Hi there, I'm Vu Thanh Dat (ヴ・タイン・ダット) 👋
+<p align="center">
+  <a href="https://gitascii.com/thdat-vu">
+    <img src="https://gitascii.com/api/thdat-vu" alt="GitAscii profile for Vu Thanh Dat" width="100%" />
+  </a>
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Software+Engineer;Fullstack+Developer;Problem+Solver" alt="Typing SVG" />
+  <a href="https://www.linkedin.com/in/thdatvu2404/">LinkedIn</a>
+  ·
+  <a href="mailto:vuthanhdat181@gmail.com">Email</a>
+  ·
+  <a href="https://x.com/DatVT2404">X</a>
 </p>
 
----
+## About
 
-###  About Me
+I'm **Vu Thanh Dat** (ヴ・タイン・ダット), a full-stack software engineer who enjoys turning clear logic into dependable products. I build with care, learn by shipping, and pay attention to the edge cases.
 
--  INTJ. I like clear logic, clean systems, and thinking about edge cases.
--  I build full-stack apps end to end and ship them — fast when I can, careful when I should.
--  Open to roles and side projects in **Java (Spring Boot)**, **Python (FastAPI)**, and **Go(Gin)**.
--  I learn by building. Reading docs is not enough until I write the code myself.
+- Exploring opportunities and side projects with Java/Spring Boot, Python/FastAPI, and Go/Gin.
+- Interested in well-designed systems, practical developer tooling, and products that make a real difference.
 
----
+## Stack
 
-###  My Tech Stack
-
-| Category | Tools & Languages |
-| :--- | :--- |
-| **Languages** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **Frameworks** | ![Gin](https://img.shields.io/badge/Gin-0081CF?style=flat-square&logo=gin&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) |
-| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-
----
-
-###  GitHub Stats
-
-<p align="center">
-  <img src="github-metrics.svg" alt="GitHub Metrics" />
-</p>
-
----
-
-###  Connect with me
-<p align="left">
-  <a href="https://www.linkedin.com/in/thdatvu2404/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="linkedin" height="35" />
-  </a>
-  &nbsp;
-  <a href="mailto:vuthanhdat181@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" alt="gmail" height="35" />
-  </a>
-  &nbsp;
-  <a href="https://x.com/DatVT2404" target="_blank">
-    <img src="https://skillicons.dev/icons?i=twitter" alt="x" height="35" />
-  </a>
-</p>
+`Go` · `Python` · `Java` · `TypeScript` · `Gin` · `FastAPI` · `Spring Boot` · `Next.js` · `React` · `PostgreSQL` · `MongoDB` · `Supabase` · `Redis` · `Docker` · `GCP`
 
 ---
 
 <p align="center">
-  <i>"Engineering (n): change the world and have a dream life"</i>
+  <i>“Engineering (n): change the world and have a dream life.”</i>
 </p>
