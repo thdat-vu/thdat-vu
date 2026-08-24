@@ -1,10 +1,4 @@
 <p align="center">
-  <a href="https://gitascii.com/thdat-vu">
-    <img src="https://gitascii.com/api/thdat-vu" alt="GitAscii profile for Vu Thanh Dat" width="100%" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://www.linkedin.com/in/thdatvu2404/">LinkedIn</a>
   ·
   <a href="mailto:vuthanhdat181@gmail.com">Email</a>
