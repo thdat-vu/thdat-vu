@@ -11599,7 +11599,8 @@
         "selectedTechs": [
           "java",
           "py",
-          "go"
+          "go",
+          "ts"
         ],
         "theme": "dark",
         "perLine": 4
