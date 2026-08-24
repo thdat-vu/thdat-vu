@@ -11530,9 +11530,16 @@
       },
       "size": {
         "width": 504,
-        "height": 280
+        "height": 360
       },
-      "config": {},
+      "config": {
+        "customWebsite": "www.linkedin.com/in/thdatvu2404",
+        "customTwitter": "https://x.com/DatVT2404",
+        "customEmail": "vuthanhdat181@gmail.com",
+        "showContactSection": true,
+        "showTwitter": true,
+        "showEmail": true
+      },
       "locked": false,
       "visible": true,
       "zIndex": 3,
