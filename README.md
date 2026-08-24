@@ -1,3 +1,11 @@
+<a href="https://gitascii.com">
+  <img
+    src="https://gitascii.com/api/thdat-vu?v=1787545459135"
+    alt="GitAscii Widget"
+    width="100%"
+  />
+</a>
+
 <p align="center">
   <a href="https://www.linkedin.com/in/thdatvu2404/">LinkedIn</a>
   ·
@@ -22,12 +30,3 @@ I'm **Vu Thanh Dat** (ヴ・タイン・ダット), a full-stack software engine
 <p align="center">
   <i>“Engineering (n): change the world and have a dream life.”</i>
 </p>
-
-
-<a href="https://gitascii.com">
-  <img
-    src="https://gitascii.com/api/thdat-vu?v=1787545459135"
-    alt="GitAscii Widget"
-    width="100%"
-  />
-</a>
