@@ -26,7 +26,7 @@ I'm **Vu Thanh Dat** (ヴ・タイン・ダット), a full-stack software engine
 
 <a href="https://gitascii.com">
   <img
-    src="https://gitascii.com/api/thdat-vu?v=1787545397201"
+    src="https://gitascii.com/api/thdat-vu?v=1787545459135"
     alt="GitAscii Widget"
     width="100%"
   />
