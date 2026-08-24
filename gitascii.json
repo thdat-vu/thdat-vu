@@ -11533,7 +11533,7 @@
         "height": 360
       },
       "config": {
-        "customWebsite": "www.linkedin.com/in/thdatvu2404",
+        "customWebsite": "https://thdatvu.vercel.app/",
         "customTwitter": "https://x.com/DatVT2404",
         "customEmail": "vuthanhdat181@gmail.com",
         "showContactSection": true,
@@ -11597,14 +11597,9 @@
       },
       "config": {
         "selectedTechs": [
-          "js",
-          "ts",
-          "html",
-          "css",
+          "java",
           "py",
-          "rust",
-          "go",
-          "cpp"
+          "go"
         ],
         "theme": "dark",
         "perLine": 4
