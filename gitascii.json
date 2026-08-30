@@ -11517,7 +11517,8 @@
             "#3b4628"
           ]
         ],
-        "accentColor": "#f0f0f0"
+        "accentColor": "#f0f0f0",
+        "textColor": "#ffb800"
       },
       "locked": false,
       "visible": true,
