@@ -12,7 +12,9 @@
         "width": 800,
         "height": 90
       },
-      "config": {},
+      "config": {
+        "accentColor": "#f0f0f0"
+      },
       "locked": false,
       "visible": true,
       "zIndex": 1,
@@ -11514,7 +11516,8 @@
             "#333f20",
             "#3b4628"
           ]
-        ]
+        ],
+        "accentColor": "#f0f0f0"
       },
       "locked": false,
       "visible": true,
@@ -11546,33 +11549,11 @@
       "instanceId": "widget_1787543011219_2"
     },
     {
-      "widgetId": "languages",
-      "name": "Languages Widget",
-      "position": {
-        "x": 0,
-        "y": 488
-      },
-      "size": {
-        "width": 536,
-        "height": 160
-      },
-      "config": {
-        "hideLangsArr": [
-          "C#"
-        ],
-        "hideLangs": "C#"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 4,
-      "instanceId": "widget_1787543011219_3"
-    },
-    {
       "widgetId": "footer",
       "name": "Footer Widget",
       "position": {
         "x": 0,
-        "y": 578
+        "y": 698
       },
       "size": {
         "width": 800,
@@ -11588,12 +11569,12 @@
       "widgetId": "tech-stack",
       "name": "Tech-stack Widget",
       "position": {
-        "x": 544,
-        "y": 402
+        "x": 390,
+        "y": 488
       },
       "size": {
-        "width": 240,
-        "height": 160
+        "width": 410,
+        "height": 210
       },
       "config": {
         "selectedTechs": [
@@ -11609,6 +11590,23 @@
       "visible": true,
       "zIndex": 6,
       "instanceId": "widget_1787543011219_5"
+    },
+    {
+      "instanceId": "widget_1788084931531",
+      "widgetId": "github-readme-stats",
+      "name": "Github-readme-stats Widget",
+      "position": {
+        "x": 0,
+        "y": 488
+      },
+      "size": {
+        "width": 390,
+        "height": 210
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
     }
   ],
   "globalStyles": {
