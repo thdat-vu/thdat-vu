@@ -1,0 +1,815 @@
+<svg width="800" height="624" viewBox="0 0 800 624" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    text {
+      user-select: none;
+    }
+
+    .gitascii-canvas-bg {
+      fill: #0d1117;
+      transition: fill 0.3s ease;
+    }
+
+    @keyframes cell-anim {
+      0%   { opacity: 0; transform: translateY(-6px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .c-heatmap {
+      opacity: 0;
+      animation: cell-anim 0.42s cubic-bezier(.2,.8,.2,1) both;
+    }
+  </style>
+
+  <rect width="800" height="624" fill="#0d1117" rx="0" />
+
+  <!-- Widget 1: Portrait terminal -->
+  <g transform="translate(48, 40)" id="widget-portrait">
+    <svg xmlns="http://www.w3.org/2000/svg" width="288" height="312" viewBox="0 0 370 400" preserveAspectRatio="xMidYMid meet" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <defs>
+        <linearGradient id="portrait-bg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#0d1117"/>
+          <stop offset="1" stop-color="#0d1117"/>
+        </linearGradient>
+      </defs>
+      <rect width="370" height="400" rx="12" fill="url(#portrait-bg)"/>
+      <rect x="0.5" y="0.5" width="369" height="399" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+      <line x1="0" y1="30" x2="370" y2="30" stroke="#30363d"/>
+      <circle cx="20" cy="15" r="5" fill="#ff5f56"/>
+      <circle cx="36" cy="15" r="5" fill="#ffbd2e"/>
+      <circle cx="52" cy="15" r="5" fill="#27c93f"/>
+      <text x="185" y="19" fill="#7d8590" font-size="12" text-anchor="middle">thdat-vu@github: ~$ ./portrait.sh</text>
+      
+<clipPath id="r-portrait-0"><rect x="20" y="37.0" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.000s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-0)"><text xml:space="preserve" x="20" y="40.2" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">&gt;&lt;&lt;+r!r!rr!_`  `^+!!!!c***rrr+&lt;&lt;++&gt;,_;&lt;+rr!&gt;+zTTvvv))J)))vJ)JJ7Fff333IIfIIIfff}}C}C{iiFFF|((7JvTLs??z/*z?/^`  `..``   `-&apos;:_::::&apos;-..``````` ` `        </text></g>
+<rect y="38.0" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.000s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.000s"/><set attributeName="opacity" to="0" begin="0.110s"/></rect>
+<clipPath id="r-portrait-1"><rect x="20" y="41.3" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.110s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-1)"><text xml:space="preserve" x="20" y="44.5" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">r==^===;;&gt;!&gt;&apos; `&apos;&gt;&lt;===;&gt;&lt;&lt;&lt;&gt;;=;;;=&gt;^&apos;_;&gt;&lt;rc/??/**//zzzz??sLsss?sv7((7J77J)7|F|(i{F{iF{{J)(F(JLz///*crrr+rrzr:` `....` `-&apos;&apos;:::-&apos;:&apos;:::::-&apos;&apos;&apos;---.```` `   </text></g>
+<rect y="42.3" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.110s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.110s"/><set attributeName="opacity" to="0" begin="0.220s"/></rect>
+<clipPath id="r-portrait-2"><rect x="20" y="45.5" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.220s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-2)"><text xml:space="preserve" x="20" y="48.7" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">!^=;&gt;;=&gt;rc!:` ``_+!!&gt;=&gt;+!!+&gt;&gt;;==;&lt;=,^==!/crrc**//z?z??ssLLLLLLTJ||(||7(C3CC{Cf|J(vzz*r&lt;+r/?TJ77vz**ccc+ccz*_` `.--.` `--&apos;:::&apos;::__:_:&apos;--&apos;--..``````  ` </text></g>
+<rect y="46.5" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.220s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.220s"/><set attributeName="opacity" to="0" begin="0.330s"/></rect>
+<clipPath id="r-portrait-3"><rect x="20" y="49.8" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.330s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-3)"><text xml:space="preserve" x="20" y="53.0" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">c&gt;;&gt;;&gt;rr&gt;^&apos;``.```:,;!c+!!!!+&lt;&gt;=&gt;&gt;,&apos;,;=;_&gt;/z**///z???sLLssLvv)))(FiF(3euf(?r&lt;+!^,=_--.`..--:,;!*s)Tzrccrc*?/,` .&apos;::&apos;. `-:&apos;::::::&apos;&apos;&apos;---....```````.``` `</text></g>
+<rect y="50.8" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.330s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.330s"/><set attributeName="opacity" to="0" begin="0.440s"/></rect>
+<clipPath id="r-portrait-4"><rect x="20" y="54.0" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.440s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-4)"><text xml:space="preserve" x="20" y="57.2" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">c;&gt;&lt;+c&gt;_.`-,c?*;:-..:&lt;/*!!+&lt;&lt;&lt;&lt;&gt;;+cr&gt;=_;c//z//z???ssLTLLTv))v)J({i15n(z+^&apos;.``            ````.-_+?vTzc!**s?^. .&apos;&apos;&apos;-. `-&apos;&apos;&apos;--.````````````````````.` ``</text></g>
+<rect y="55.0" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.440s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.440s"/><set attributeName="opacity" to="0" begin="0.550s"/></rect>
+<clipPath id="r-portrait-5"><rect x="20" y="58.3" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.550s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-5)"><text xml:space="preserve" x="20" y="61.5" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">!;&gt;&lt;c!s7iflj9p4wx[tI{J??*r!&lt;&lt;&gt;&gt;&lt;!!++&gt;+rc?z//zz??sssTTTTTv)v)JJJ|C55{r:.`                       `._&gt;zvv//c??;` `----.  `..-.-.`` ` `     ``````````` ``</text></g>
+<rect y="59.3" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.550s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.550s"/><set attributeName="opacity" to="0" begin="0.660s"/></rect>
+<clipPath id="r-portrait-6"><rect x="20" y="62.6" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.660s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-6)"><text xml:space="preserve" x="20" y="65.8" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">!&gt;!rslEdGXR0N$M%@g$8U6y}zrc+&gt;&gt;&lt;+!++&lt;;r//r/zz??????sTTTT)v))J7J73Y3z,` `                     ` ` ` .:;rsv?zL;. `-&apos;-&apos;.` ...-.-.`   ` ``..`   ` ``````   </text></g>
+<rect y="63.6" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.660s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.660s"/><set attributeName="opacity" to="0" begin="0.770s"/></rect>
+<clipPath id="r-portrait-7"><rect x="20" y="66.8" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.770s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-7)"><text xml:space="preserve" x="20" y="70.0" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">+&gt;rz715EkdG8gRD##KbVPy[F?*r!!&lt;&gt;=^;&gt;&gt;+c/??z/z?zzsssTLTvT)))JJ7|1Iv=- ```                      ` `    `-=*v/L&gt;- `.-..` ````---.````&apos;^&gt;vul);_-``  ` `    </text></g>
+<rect y="67.8" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.770s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.770s"/><set attributeName="opacity" to="0" begin="0.880s"/></rect>
+<clipPath id="r-portrait-8"><rect x="20" y="71.1" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.880s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-8)"><text xml:space="preserve" x="20" y="74.3" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">r!r!/vF}I1u5SPkSjo[lfFv/c!+!!;;c?zcr&lt;+z/*zzzz?sLTvvTTTv)))J77IIc-.```  `                       ` `    ._*?z!- .:__-.  ``.----` `:&lt;/{qAA6Fr=&apos;`` `  `   </text></g>
+<rect y="72.1" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.880s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.880s"/><set attributeName="opacity" to="0" begin="0.990s"/></rect>
+<clipPath id="r-portrait-9"><rect x="20" y="75.3" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="0.990s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-9)"><text xml:space="preserve" x="20" y="78.5" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">*!rrr+!!!!rr?vvs/ccrcc**/crc*r!*rrr&lt;!r/?Ls?zz?LLTTTvvvvv)JJJiIL_``  `  ` `   `                         .=?*r: `&apos;_:&apos;``  ``--&apos;-```&apos;&lt;*v[ppZ?;:.` ` ` `   </text></g>
+<rect y="76.3" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="0.990s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="0.990s"/><set attributeName="opacity" to="0" begin="1.100s"/></rect>
+<clipPath id="r-portrait-10"><rect x="20" y="79.6" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.100s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-10)"><text xml:space="preserve" x="20" y="82.8" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">/z?z/*ccccccccccrcrrrcc*/cc***!!!r&gt;c*+;++*sssLssLvvvv))JJJJJ{3s&apos;` `  `     `                   ` `` `   &apos;!c+:```.. `   ``-&apos;&apos;-`` `&apos;,=+Tv!:-``` ``````  </text></g>
+<rect y="80.6" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.100s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.100s"/><set attributeName="opacity" to="0" begin="1.210s"/></rect>
+<clipPath id="r-portrait-11"><rect x="20" y="83.9" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.210s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-11)"><text xml:space="preserve" x="20" y="87.1" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">^&gt;;&gt;&gt;&gt;&lt;&lt;+rc/zsLTLTLLLLTs*/c*/z+rr!r**//T)vTLTLTTTTTv)))))J77(lF,`  `  ` `    `                       `  .^&lt;;:` ..--.` `.::::^!+_.` ` `   ` ` `` ` `   </text></g>
+<rect y="84.9" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.210s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.210s"/><set attributeName="opacity" to="0" begin="1.320s"/></rect>
+<clipPath id="r-portrait-12"><rect x="20" y="88.1" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.320s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-12)"><text xml:space="preserve" x="20" y="91.3" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">`!vJJJ))vTs?/r!&lt;&lt;&gt;;;;,cLszz//?z**//*sz*LLLTLTTTvTvvvvv))))J7733!``              `                  `    `&apos;=^:``....`` .:,::^)a]F,.```` ` `` ` ````-.` </text></g>
+<rect y="89.1" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.320s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.320s"/><set attributeName="opacity" to="0" begin="1.430s"/></rect>
+<clipPath id="r-portrait-13"><rect x="20" y="92.4" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.430s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-13)"><text xml:space="preserve" x="20" y="95.6" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">`/FF|((|||i{CCfff}}}C{!rvLssz?s???z?r&gt;svLLLLLTTvTvTTv))JJ7777{lL:`` `          `                        `&apos;^=:``.-.--` `.-:,zyV6Pv:.`..`` ``` ``.-&lt;1[7`</text></g>
+<rect y="93.4" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.430s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.430s"/><set attributeName="opacity" to="0" begin="1.540s"/></rect>
+<clipPath id="r-portrait-14"><rect x="20" y="96.6" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.540s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-14)"><text xml:space="preserve" x="20" y="99.8" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing"> cF|vv)v)vJ77JJJJ)vT)i?+vTssL??*/z?c*LLTLssLLTvvTTvvv)JJJ7(((it|=&apos;..```      ` `````` ``..-..```` `     `.^=,``..`..` `&apos;c*&gt;_zluv:.``.-.``..-.-&apos;:&lt;oK6V;</text></g>
+<rect y="97.6" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.540s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.540s"/><set attributeName="opacity" to="0" begin="1.650s"/></rect>
+<clipPath id="r-portrait-15"><rect x="20" y="100.9" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.650s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-15)"><text xml:space="preserve" x="20" y="104.1" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">`rFF)vss?s)J))vLLLT)Ti?+)T??s?szzzzTT?*LLLLTTLTTvv)))))JJJ(((|fI!_&apos;-..```` ``-&apos;-----&apos;:_,,^,,,_::&apos;---.``&apos;^=+&gt;^``.-:_&apos;` -c|Lv&lt;:&apos;&apos;..`....-.`.---:=&gt;;!txC.</text></g>
+<rect y="101.9" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.650s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.650s"/><set attributeName="opacity" to="0" begin="1.760s"/></rect>
+<clipPath id="r-portrait-16"><rect x="20" y="105.2" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.760s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-16)"><text xml:space="preserve" x="20" y="108.4" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">`+|i))zzTLscr*z/*csJTFT;)v???sT?czLLLzLTLsLTLLLTvv)v)JJJ7J7(7{llL^:&apos;-.......&apos;,^^,,,^;&lt;&lt;&gt;&gt;&gt;&lt;&gt;&gt;;;====^,:^?))7L&gt;. -,=&gt;&gt;&apos;``&apos;rc;:&apos;-&apos;---&apos;:_&apos;-````.-,c?s)Lr,`</text></g>
+<rect y="106.2" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.760s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.760s"/><set attributeName="opacity" to="0" begin="1.870s"/></rect>
+<clipPath id="r-portrait-17"><rect x="20" y="109.4" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.870s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-17)"><text xml:space="preserve" x="20" y="112.6" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">.&lt;({v)LLssc&gt;=;!ccrs))i)^TJ??ss?sss?ssTTLLsTLLTvvvvv))JJJ77(7{IJ*!!;,&apos;&apos;&apos;:_,^^=;==;;=&gt;&gt;&lt;&gt;&lt;&gt;;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&lt;+rJF|FJJ&lt;-`&apos;=*tY?.`-_^,:&apos;&apos;=&gt;^=+*s(L^--..&apos;!7|F{Ii&lt;`</text></g>
+<rect y="110.4" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.870s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.870s"/><set attributeName="opacity" to="0" begin="1.980s"/></rect>
+<clipPath id="r-portrait-18"><rect x="20" y="113.7" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="1.980s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-18)"><text xml:space="preserve" x="20" y="116.9" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">.=7ivJT/&gt;*r&lt;&gt;;;rc!zJJF7;LJ???z???ss??ssLLTLTTTTTvvv)))JJ777(FfJ!+^;&gt;^_^&gt;!!!+&lt;;===;&lt;&lt;&lt;&gt;&gt;&gt;&gt;;;;;&gt;;&gt;;;&gt;&lt;/7JTvTJ(r-`,?xUbh/`_&lt;;=,-^+&lt;&gt;&gt;*T[d6C&gt;&apos;-.:r|7LJC|&lt; </text></g>
+<rect y="114.7" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="1.980s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="1.980s"/><set attributeName="opacity" to="0" begin="2.090s"/></rect>
+<clipPath id="r-portrait-19"><rect x="20" y="117.9" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.090s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-19)"><text xml:space="preserve" x="20" y="121.1" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">-^)iT)L?r^^^;+&lt;!cr/)7||&lt;s7??ssLsLLLssssLLLTLTLTvvvTv)v)))77((CC/+Tc!+;!c!&lt;&lt;&gt;;=;=&gt;+!r!&lt;&gt;&lt;&gt;&gt;;&gt;&gt;&gt;;;;&gt;+r/LssTL)i/&apos;`^!seaL-`:;==,-&apos;;+;=/}kpVyT^-&apos;;?77(|FL^ </text></g>
+<rect y="118.9" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.090s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.090s"/><set attributeName="opacity" to="0" begin="2.200s"/></rect>
+<clipPath id="r-portrait-20"><rect x="20" y="122.2" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.200s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-20)"><text xml:space="preserve" x="20" y="125.4" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">&apos;_T{L)sz/&lt;&gt;&gt;=&gt;&gt;=r//v7JF!?(ssssssLLssssLLTTLLLTTLTTTv))))JJ77Ji{L|C)?/c*r!+&lt;&gt;&gt;;=,&apos;:,,&gt;+!+&lt;;&gt;&gt;&lt;+!+&lt;;,^?J?svT){?:`,+===:``&apos;,,,:&apos;-&apos;__:^!|e[v;&apos;.&apos;_!z!r&gt;r+:`</text></g>
+<rect y="123.2" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.200s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.200s"/><set attributeName="opacity" to="0" begin="2.310s"/></rect>
+<clipPath id="r-portrait-21"><rect x="20" y="126.5" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.310s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-21)"><text xml:space="preserve" x="20" y="129.7" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">_&apos;LCT)Tsc&lt;++^+&gt;&gt;&gt;c/v7)Fc/|Lsss?sssssLLLLTTTTTLLTLTTvv)vv)))J7(}i|i*///r!!++&gt;=,_^=;=,_,,=&gt;;;&gt;&lt;&gt;&gt;&gt;;^&gt;z7Lz?TTv{?: :&lt;c!z&gt;-`:=__&apos;:-..&apos;&apos;&apos;-_,,_&apos;-&apos;^;&lt;)(FC}J&gt;`</text></g>
+<rect y="127.5" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.310s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.310s"/><set attributeName="opacity" to="0" begin="2.420s"/></rect>
+<clipPath id="r-portrait-22"><rect x="20" y="130.7" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.420s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-22)"><text xml:space="preserve" x="20" y="133.9" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">,-z{T)v?+:^=^=^^^^+T|vF/*FLLLLTTLLsTLLLTLTLTLTLTTTTLTT))7|i}u51?/|rccr!++r!!&lt;&lt;=,,:.:^&lt;+!!&lt;+;=^&apos;-_;rLTsz?TTvis_`.,+cc=.`:;^::&apos;-`-----&apos;&apos;---:^!*+L)7Ff|&lt;`</text></g>
+<rect y="131.7" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.420s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.420s"/><set attributeName="opacity" to="0" begin="2.530s"/></rect>
+<clipPath id="r-portrait-23"><rect x="20" y="135.0" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.530s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-23)"><text xml:space="preserve" x="20" y="138.2" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">=./ivTT?/c;,,&lt;+&lt;;&lt;csJTiz!|TTLLsLLLLLLLLLTTTTTTTLLTTTT)Fl[l13{L=`:;c+r!+!r!!!rrr++!r!!!+++&lt;&lt;;;&lt;++rccLL?z?LLTiL,``&apos;:,_:. `&apos;-&apos;&apos;:-.-::::::&apos;-&apos;_=r!&lt;LFCFtCr`</text></g>
+<rect y="136.0" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.530s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.530s"/><set attributeName="opacity" to="0" begin="2.640s"/></rect>
+<clipPath id="r-portrait-24"><rect x="20" y="139.2" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.640s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-24)"><text xml:space="preserve" x="20" y="142.4" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">&gt;&apos;rF)TLcr*r=_&apos;,^=&lt;rsJTFs+|TTLLsLLLLLLLLTLTTTTTv7f1tlttt7zcrr,`-&gt;zs/r!+&gt;&lt;++&lt;++!!+!!+&gt;&gt;&lt;&lt;!!++&gt;=&lt;++&gt;&lt;*v?zz?LLTFT^`.:_;&lt;=- -&lt;?&gt;::-&apos;=*//zs?s?c=&lt;*r+L|Cno}c`</text></g>
+<rect y="140.2" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.640s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.640s"/><set attributeName="opacity" to="0" begin="2.750s"/></rect>
+<clipPath id="r-portrait-25"><rect x="20" y="143.5" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.750s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-25)"><text xml:space="preserve" x="20" y="146.7" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">!_&lt;(7Tvzr!+!!rc*//*?)TFL;7vLssLsLTLTLTvvvTv(CI1t|Ls??z+&apos; ... &apos;!T*!cr++&lt;;&gt;&gt;&lt;&lt;+++&lt;+++&gt;;!rc!rr&gt;;&lt;;&gt;&gt;cvL?z?zLLL(T=.`:;*/+&apos;`&gt;ey{;_-=)lulZ2EExIr=c*+T(}|Jc_`</text></g>
+<rect y="144.5" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.750s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.750s"/><set attributeName="opacity" to="0" begin="2.860s"/></rect>
+<clipPath id="r-portrait-26"><rect x="20" y="147.8" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.860s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-26)"><text xml:space="preserve" x="20" y="151.0" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">!,;JJssLTLvJ)v))JJ)vTTFT=JvsLsLLTLLLL)F3ttt1iJLr_&apos;--.`` `` `-^c*!+rc&lt;&lt;&lt;&gt;;&gt;++!+++&lt;&lt;&gt;;c**//cr+&lt;;&gt;&lt;csJLszz/sss(T=..^?TTs^`iG]Ev^&apos;*1ZI[5jaj5[T&lt;+!&gt;cr&lt;_&apos;.``</text></g>
+<rect y="148.8" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.860s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.860s"/><set attributeName="opacity" to="0" begin="2.970s"/></rect>
+<clipPath id="r-portrait-27"><rect x="20" y="152.0" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="2.970s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-27)"><text xml:space="preserve" x="20" y="155.2" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">c=^T7?sT)JJ))JvvvvvTsL|)_v)LssLLT)(}33CJLzzr;,&apos;.````` ` `   .,rr++++;,;&lt;&gt;&gt;&gt;&lt;!r+&lt;&gt;&lt;++;+&lt;&lt;&gt;&lt;;&gt;&gt;;&lt;r+?i{{i7ssss)T;..^&lt;!c&gt;&apos; ^3n7^-.:r}ZnojnZxf+:::,c/s&gt;...`</text></g>
+<rect y="153.0" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="2.970s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="2.970s"/><set attributeName="opacity" to="0" begin="3.080s"/></rect>
+<clipPath id="r-portrait-28"><rect x="20" y="156.3" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.080s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-28)"><text xml:space="preserve" x="20" y="159.5" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">/;_T{|F{{{{{{{CC}f}}ff3J_TJssLLifI}7s/&lt;_&apos;-.````` ```   `    `,rr&lt;&lt;;^&gt;=_^&gt;&gt;&gt;&lt;&lt;+&lt;+rrr!+!+&gt;&lt;&gt;&gt;&gt;&gt;+!^&apos;_&gt;+r/v(|)?vL;.`_&lt;&lt;+&lt;:`.==_. ``:/{ft5Eya{^` `&apos;c)v!&apos;```</text></g>
+<rect y="157.3" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.080s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.080s"/><set attributeName="opacity" to="0" begin="3.190s"/></rect>
+<clipPath id="r-portrait-29"><rect x="20" y="160.5" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.190s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-29)"><text xml:space="preserve" x="20" y="163.7" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">z+&apos;;?ss?s??zz//**/crrcr:*J)LL|3is*+,&apos;-....```` `` `   `      .=r&lt;=^;;;,,_^&gt;&gt;&gt;&lt;&lt;+&gt;;=;;^,,^^^;;=&apos;` `  `._&gt;*(i|T&gt;.`:;!r;&apos; -=;;&apos;```&apos;&gt;L)7i[o1?_`  `&apos;+&lt;-``` </text></g>
+<rect y="161.5" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.190s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.190s"/><set attributeName="opacity" to="0" begin="3.300s"/></rect>
+<clipPath id="r-portrait-30"><rect x="20" y="164.8" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.300s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-30)"><text xml:space="preserve" x="20" y="168.0" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">Tz+,,_&apos;&apos;&apos;:^=;;=,_^&lt;&lt;+csJ|JT)C{?=&apos;.````````````   `  `       ` ._==^;&gt;=,,,__^;&gt;;^,^^,__,___,::.       `` .=r/r^-``-&apos;&apos;.` `&apos;^:. ``-=!r+^r??=-``  `.`...``</text></g>
+<rect y="165.8" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.300s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.300s"/><set attributeName="opacity" to="0" begin="3.410s"/></rect>
+<clipPath id="r-portrait-31"><rect x="20" y="169.1" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.410s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-31)"><text xml:space="preserve" x="20" y="172.3" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">vc!&gt;rr!,+c*/c//r+rr&lt;rv(7vsJ}T&gt;-````` ``  ` ` ``             `  `.&apos;,&gt;&lt;=,,,_::_,=;=;==^,^=^_-..       `   ` `-_- .-:,_:-` `..```.:=!!&lt;_&gt;c&lt;&apos;``     `.--.`</text></g>
+<rect y="170.1" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.410s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.410s"/><set attributeName="opacity" to="0" begin="3.520s"/></rect>
+<clipPath id="r-portrait-32"><rect x="20" y="173.3" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.520s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-32)"><text xml:space="preserve" x="20" y="176.5" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">+!&lt;=;=_;&lt;&lt;!!+r!+rr&lt;;&lt;T)Ls)}s,.```` ` ` ` `     `  `        ` `  ` .:====^,,,::_^=;;;=^,_&apos;.```         `   `   `.:^=^:.` ```  ``&apos;,;&gt;^_=^&apos;`     ` `.-.--</text></g>
+<rect y="174.3" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.520s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.520s"/><set attributeName="opacity" to="0" begin="3.630s"/></rect>
+<clipPath id="r-portrait-33"><rect x="20" y="177.6" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.630s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-33)"><text xml:space="preserve" x="20" y="180.8" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">!=:,;^;&gt;&lt;&lt;&gt;&gt;&lt;cr!czT))T?s)}z_-.`` ``` `` ` `  ``        `    ` ` `  `&apos;`&apos;::_:::&apos;&apos;&apos;------.`  .`             `  `  `&apos;=;^,&apos;`     ` ``&apos;&apos;,^,&apos;.         ``.--.</text></g>
+<rect y="178.6" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.630s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.630s"/><set attributeName="opacity" to="0" begin="3.740s"/></rect>
+<clipPath id="r-portrait-34"><rect x="20" y="181.8" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.740s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-34)"><text xml:space="preserve" x="20" y="185.0" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">==,^,,;&gt;&lt;;;&gt;;,:;c/zz?zzJ{z:-. ``` `   ` `       `  `        ``` ` ` -*_```.`...`         .``        `  `      ` `-::&apos;`` ` ` ``` ``.-.             ````</text></g>
+<rect y="182.8" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.740s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.740s"/><set attributeName="opacity" to="0" begin="3.850s"/></rect>
+<clipPath id="r-portrait-35"><rect x="20" y="186.1" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.850s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-35)"><text xml:space="preserve" x="20" y="189.3" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">-_=,:&apos;__,^,_:;+c/*//zz(|c&apos;-.`   `` `` `  `            `      ` ` ` `!LT_`       ` `     ...       `              ``.``    `` ````` ````` ` ` `````````</text></g>
+<rect y="187.1" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.850s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.850s"/><set attributeName="opacity" to="0" begin="3.960s"/></rect>
+<clipPath id="r-portrait-36"><rect x="20" y="190.4" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="3.960s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-36)"><text xml:space="preserve" x="20" y="193.6" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">-.&apos;__:-.`&apos;&apos;:=;&gt;+c**c/7(+-..`` `   `    `          `        ` ` `  ` :s/r.  ` `      `   .`                       ` `     ````` ` ````` `   ```.`.`....</text></g>
+<rect y="191.4" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="3.960s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="3.960s"/><set attributeName="opacity" to="0" begin="4.070s"/></rect>
+<clipPath id="r-portrait-37"><rect x="20" y="194.6" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.070s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-37)"><text xml:space="preserve" x="20" y="197.8" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">.`..-....`._;&gt;&lt;!rc*/Jv;-..      `  ` `                       ` `   `.&lt;sT= `    ` `    `..`                        `  `  ` ``    `  ` `  ` ` ` ` ```   </text></g>
+<rect y="195.6" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.070s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.070s"/><set attributeName="opacity" to="0" begin="4.180s"/></rect>
+<clipPath id="r-portrait-38"><rect x="20" y="198.9" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.180s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-38)"><text xml:space="preserve" x="20" y="202.1" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">...-` ```.-`:,&lt;!r*/TT^` ` `    `  `                           ` ` `  _?s&gt;.  ` `  ` `  ``.                          `    `..--.....-...-...`..`..---..-</text></g>
+<rect y="199.9" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.180s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.180s"/><set attributeName="opacity" to="0" begin="4.290s"/></rect>
+<clipPath id="r-portrait-39"><rect x="20" y="203.1" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.290s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-39)"><text xml:space="preserve" x="20" y="206.3" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">--&apos;_-`  `---`&apos;;+r/??;.` ```                                `` ` `  ` `:&gt;-.`  ` `     ..``                    `.`.`.`.`..-&apos;_::&apos;&apos;&apos;-&apos;&apos;:&apos;&apos;&apos;&apos;--............</text></g>
+<rect y="204.1" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.290s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.290s"/><set attributeName="opacity" to="0" begin="4.400s"/></rect>
+<clipPath id="r-portrait-40"><rect x="20" y="207.4" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.400s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-40)"><text xml:space="preserve" x="20" y="210.6" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">&apos;_,=,&apos;&apos;&apos;---.&apos;&apos;&apos;_^^&gt;=-` `` ``      ` `                      ` ` ` ` `  `---` `   ` ``...                     -:-.-------.-.&apos;&apos;&apos;--..------......`.```````</text></g>
+<rect y="208.4" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.400s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.400s"/><set attributeName="opacity" to="0" begin="4.510s"/></rect>
+<clipPath id="r-portrait-41"><rect x="20" y="211.7" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.510s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-41)"><text xml:space="preserve" x="20" y="214.9" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">^,,,;rcc+&gt;&lt;+rr!+&lt;&lt;,:. ` ` ` `         `                    `` ` ` ` ` ``-&apos;-`  ` ` `..-                     -,_&apos;.`................``.``.`.``````.``.```</text></g>
+<rect y="212.7" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.510s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.510s"/><set attributeName="opacity" to="0" begin="4.620s"/></rect>
+<clipPath id="r-portrait-42"><rect x="20" y="215.9" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.620s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-42)"><text xml:space="preserve" x="20" y="219.1" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">=!ccz?zz?ss?z/crr?!:`` ` ````                              ` ` `   ` ` ``--``  ` `.`.                     `.&apos;&apos;.``.````.``.``.````.``.````.````````````</text></g>
+<rect y="216.9" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.620s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.620s"/><set attributeName="opacity" to="0" begin="4.730s"/></rect>
+<clipPath id="r-portrait-43"><rect x="20" y="220.2" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.730s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-43)"><text xml:space="preserve" x="20" y="223.4" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">T/z??TLLsLLsss/*c!:`` ` ``` ` `  `                         ```` ` ` `   `.--` ` .-.``                     `-.```````.`````.``````````````````````` ` `</text></g>
+<rect y="221.2" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.730s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.730s"/><set attributeName="opacity" to="0" begin="4.840s"/></rect>
+<clipPath id="r-portrait-44"><rect x="20" y="224.4" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.840s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-44)"><text xml:space="preserve" x="20" y="227.6" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">.&lt;++&lt;&gt;;&gt;;;;==,_:&apos;-```` ` ` `                                ```` `   ` ` `-.-` `... `                     ---``.``.`````.`````````````````````````` ``</text></g>
+<rect y="225.4" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.840s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.840s"/><set attributeName="opacity" to="0" begin="4.950s"/></rect>
+<clipPath id="r-portrait-45"><rect x="20" y="228.7" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="4.950s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-45)"><text xml:space="preserve" x="20" y="231.9" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing"> `` ```` `  ` ```.``.````` ` ` `                            `` `` `` `    `-..`...    `                  .&apos;-.````````````````````````````````` ` ``` `</text></g>
+<rect y="229.7" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="4.950s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="4.950s"/><set attributeName="opacity" to="0" begin="5.060s"/></rect>
+<clipPath id="r-portrait-46"><rect x="20" y="233.0" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.060s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-46)"><text xml:space="preserve" x="20" y="236.2" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">                `````                                        ``` `  ` ` ` ``..-.` ` `                    ---````````````````````````````````````` ` ``</text></g>
+<rect y="234.0" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.060s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.060s"/><set attributeName="opacity" to="0" begin="5.170s"/></rect>
+<clipPath id="r-portrait-47"><rect x="20" y="237.2" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.170s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-47)"><text xml:space="preserve" x="20" y="240.4" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">              ````` ``````` `      ` `                     `  `` ``  ` ` `  `-&apos;&apos;.    ` `                `.-.```````````````````````````````` `` ```` `</text></g>
+<rect y="238.2" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.170s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.170s"/><set attributeName="opacity" to="0" begin="5.280s"/></rect>
+<clipPath id="r-portrait-48"><rect x="20" y="241.5" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.280s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-48)"><text xml:space="preserve" x="20" y="244.7" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">             ``` ` ` ` ``` `  `   `   `                      ` `` `        ` .-&apos;.  `  `                 .-.``````````````````````````````````````` ` `</text></g>
+<rect y="242.5" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.280s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.280s"/><set attributeName="opacity" to="0" begin="5.390s"/></rect>
+<clipPath id="r-portrait-49"><rect x="20" y="245.7" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.390s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-49)"><text xml:space="preserve" x="20" y="248.9" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">           ` ``````````` `          `                         ` `` ` ` ` `   `&apos;:-   `                  `..`````````````````````````````````` `` ``` ``</text></g>
+<rect y="246.7" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.390s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.390s"/><set attributeName="opacity" to="0" begin="5.500s"/></rect>
+<clipPath id="r-portrait-50"><rect x="20" y="250.0" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.500s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-50)"><text xml:space="preserve" x="20" y="253.2" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">             ` ` `````                                     `   `` ``         ._,&apos; ` `                  ...```````````````` ``` ``````` `````````` `` `</text></g>
+<rect y="251.0" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.500s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.500s"/><set attributeName="opacity" to="0" begin="5.610s"/></rect>
+<clipPath id="r-portrait-51"><rect x="20" y="254.3" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.610s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-51)"><text xml:space="preserve" x="20" y="257.5" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">           `````````                                            ````` `   `  `.:` `                   `.`````````````` ````````````   ```` ```````````</text></g>
+<rect y="255.3" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.610s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.610s"/><set attributeName="opacity" to="0" begin="5.720s"/></rect>
+<clipPath id="r-portrait-52"><rect x="20" y="258.5" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.720s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-52)"><text xml:space="preserve" x="20" y="261.7" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">            `````    `        `  `                                ` ``  `   ``-.``        ```         `-.`````````` ``` ``` ` ````` ` ````````````````</text></g>
+<rect y="259.5" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.720s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.720s"/><set attributeName="opacity" to="0" begin="5.830s"/></rect>
+<clipPath id="r-portrait-53"><rect x="20" y="262.8" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.830s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-53)"><text xml:space="preserve" x="20" y="266.0" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">        `    ``           ` `  ` ` `    ` ` ` ` ` `  `           ` `  ` ` ` `--.`    `&apos;_^;++&lt;&gt;^&apos;.`   `..````` ` ` `` ``` ````` ` ````````` ``` ```````</text></g>
+<rect y="263.8" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.830s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.830s"/><set attributeName="opacity" to="0" begin="5.940s"/></rect>
+<clipPath id="r-portrait-54"><rect x="20" y="267.0" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="5.940s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-54)"><text xml:space="preserve" x="20" y="270.2" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">  ``   `   `     ` `     ` ` ` ``` `  ` ```` ``````````````` `` `   ` `    `..- .-_,;&lt;r?Lv))JJ)?c!&gt;;,&apos;..``` ````````` ``` `` `````` ``` ``````````````</text></g>
+<rect y="268.0" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="5.940s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="5.940s"/><set attributeName="opacity" to="0" begin="6.050s"/></rect>
+<clipPath id="r-portrait-55"><rect x="20" y="271.3" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.050s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-55)"><text xml:space="preserve" x="20" y="274.5" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing"> ````    `     `          `  ``` `````````` ````` ``````````.``.````-:,=====&gt;;&lt;+!c/sLLs?/*crrrz)(F(v?;&apos;`````` ` ` ` ` ` ` ```` ` ` `` ` ` ```````````.</text></g>
+<rect y="272.3" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.050s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.050s"/><set attributeName="opacity" to="0" begin="6.160s"/></rect>
+<clipPath id="r-portrait-56"><rect x="20" y="275.6" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.160s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-56)"><text xml:space="preserve" x="20" y="278.8" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing"> ```            `  `   ` ` ` ` `` `  ```` ``````` `  ` `````````..&apos;=rsTvvvvvv7(7JTL/*c**ccr!!rc*zs/zsr:` ` ` ` ` ` ` ` ` ` ` ``` ````....`` `````````.</text></g>
+<rect y="276.6" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.160s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.160s"/><set attributeName="opacity" to="0" begin="6.270s"/></rect>
+<clipPath id="r-portrait-57"><rect x="20" y="279.8" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.270s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-57)"><text xml:space="preserve" x="20" y="283.0" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">       `  `   `       `     `      `` ``` ` ` `  ` `````````````.,+?J)TsTLLTL?z/zzz*/?//**?LLLLTL*r*/=. `` ` ` ` ` ` ` ``` ` ` ```-_,,^^^,:. ````````.</text></g>
+<rect y="280.8" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.270s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.270s"/><set attributeName="opacity" to="0" begin="6.380s"/></rect>
+<clipPath id="r-portrait-58"><rect x="20" y="284.1" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.380s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-58)"><text xml:space="preserve" x="20" y="287.3" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">     `               `   `  ` ` ` `  `  ````` ` ` ` `` ` ``````._=+/sLss?zz/////??z//***/zc;:,&gt;r/s?Lr:`` ` ` ` ` ` ` ` ` ` ` ` ` &apos;=&lt;&lt;&gt;&gt;&gt;+&gt;&lt;=- ` ``````</text></g>
+<rect y="285.1" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.380s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.380s"/><set attributeName="opacity" to="0" begin="6.490s"/></rect>
+<clipPath id="r-portrait-59"><rect x="20" y="288.3" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.490s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-59)"><text xml:space="preserve" x="20" y="291.5" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">              `    `   `   ` ` ` ```` ``    ` `    ` `` ` `   `.&apos;:^&lt;c/?LLLs?zz/z?szzLvJ77)?c**z&lt;.;cr^. ` `  ` ` `  ` ` `..---...._;;==,=&gt;;;+,. `` .-&apos;.</text></g>
+<rect y="289.3" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.490s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.490s"/><set attributeName="opacity" to="0" begin="6.600s"/></rect>
+<clipPath id="r-portrait-60"><rect x="20" y="292.6" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.600s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-60)"><text xml:space="preserve" x="20" y="295.8" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">             `    ` `       `  `     `         ` `      `     ``&apos;:,^;+!/?vTLLssLTvJJ)T?/rc/*z??sz^`:.` `  ` `  ` `  ```-:^^^^,_:&apos;-&apos;;&gt;^=&lt;&lt;&lt;&lt;=-````-:,==</text></g>
+<rect y="293.6" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.600s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.600s"/><set attributeName="opacity" to="0" begin="6.710s"/></rect>
+<clipPath id="r-portrait-61"><rect x="20" y="296.9" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.710s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-61)"><text xml:space="preserve" x="20" y="300.1" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">    `   `            `    `     ```                            `..---&apos;&apos;:,=!//??s?/r&lt;=,:-.--:_=r*&lt;,^&apos;``  ` `  `    `  ``&apos;^,^^^;=,__:.:^=;&lt;&gt;;,.`.-&apos;::_^;</text></g>
+<rect y="297.9" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.710s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.710s"/><set attributeName="opacity" to="0" begin="6.820s"/></rect>
+<clipPath id="r-portrait-62"><rect x="20" y="301.1" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.820s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-62)"><text xml:space="preserve" x="20" y="304.3" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">     ``.     `    `   `-:^&gt;&lt;&lt;+!*/cc+++&lt;+rr+:`                     ` ` ```-`&apos;:_:_:-.          `.&apos;_,_-`` ` ` `  ` `  `   `-,^,^:,&gt;;_&apos;:_,_:,:&apos;` .-&apos;&apos;&apos;&apos;&apos;_:</text></g>
+<rect y="302.1" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.820s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.820s"/><set attributeName="opacity" to="0" begin="6.930s"/></rect>
+<clipPath id="r-portrait-63"><rect x="20" y="305.4" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="6.930s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-63)"><text xml:space="preserve" x="20" y="308.6" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">    `.--.       `.:=&lt;+!cL({{ftloou3}}{i|FiFv*+.` ` `` `` ` `        ````-::_::::&apos;&apos;...`` `       `.-. `  `   `  `  `   ``_===&gt;;&gt;+!=:__&apos;----...``..``.`.</text></g>
+<rect y="306.4" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="6.930s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="6.930s"/><set attributeName="opacity" to="0" begin="7.040s"/></rect>
+<clipPath id="r-portrait-64"><rect x="20" y="309.6" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.040s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-64)"><text xml:space="preserve" x="20" y="312.8" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">     `.`` ``.-&apos;,/cL7FiIttfIIu[3lu[f}ff}J/cz|3f!^!/*;&apos;.`.`````````&apos;-.....-&apos;::&apos;::&apos;&apos;:-.`....`..`````..`  `  ` ` `  `   -,=^^^=;=_:^^:&apos;-..-&apos;.....-.`-&apos;&apos;&apos;&apos;-</text></g>
+<rect y="310.6" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.040s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.040s"/><set attributeName="opacity" to="0" begin="7.150s"/></rect>
+<clipPath id="r-portrait-65"><rect x="20" y="313.9" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.150s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-65)"><text xml:space="preserve" x="20" y="317.1" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">  ```.--&apos;&apos;:_^;&gt;vtIC()|3t1{I3f{{CI}1i{{f}|))7{frs|)|7*,.`.```.``.&apos;,^:--&apos;-&apos;----.`--:&apos;.``.......--:-.``` ` `        `-;*Lsc;,::`-&apos;--.````......----&apos;:::_:</text></g>
+<rect y="314.9" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.150s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.150s"/><set attributeName="opacity" to="0" begin="7.260s"/></rect>
+<clipPath id="r-portrait-66"><rect x="20" y="318.2" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.260s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-66)"><text xml:space="preserve" x="20" y="321.4" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">`&apos;-&apos;:__:_,^==^^Lt{F7v))||(|i{i{C}I}CI3I{FF|JJ/&lt;css?zc/:``..`.`..&apos;^;;,,^,_^==,,,^;,:.`` ````..-___-` `     ` ` ```_r))z*!&gt;,_-&apos;&apos;:&apos;:-...````.```..-__,,,=</text></g>
+<rect y="319.2" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.260s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.260s"/><set attributeName="opacity" to="0" begin="7.370s"/></rect>
+<clipPath id="r-portrait-67"><rect x="20" y="322.4" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.370s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-67)"><text xml:space="preserve" x="20" y="325.6" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">_:_:&apos;&apos;&apos;&apos;&apos;:_____^?vJ|{}f31tu[[e[l3ffC|)TvvT/r&lt;&gt;!&lt;^::_&gt;&gt;,..`.``..`:&lt;&lt;czr;==&gt;+!&gt;&gt;+r!;_&apos;--....````.&apos;` ` ` ``````````_!???Ls*;_&apos;&apos;-__&apos;--.`  ```.---..---:&apos;:.</text></g>
+<rect y="323.4" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.370s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.370s"/><set attributeName="opacity" to="0" begin="7.480s"/></rect>
+<clipPath id="r-portrait-68"><rect x="20" y="326.7" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.480s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-68)"><text xml:space="preserve" x="20" y="329.9" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">&apos;-&apos;-----&apos;&apos;&apos;_,^^,^^&gt;!zTvv))JJ77J)vTTzcr!!++&lt;+!+,,__&lt;*++&apos;..``.`.`.&apos;&gt;/LvTc&lt;;&lt;+&gt;;cz?vc^....-.......&apos;--..`.`````````&apos;&lt;!/ss/+,&apos;--..``..````` `----&apos;&apos;.`` ``` </text></g>
+<rect y="327.7" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.480s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.480s"/><set attributeName="opacity" to="0" begin="7.590s"/></rect>
+<clipPath id="r-portrait-69"><rect x="20" y="330.9" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.590s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-69)"><text xml:space="preserve" x="20" y="334.1" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">&apos;--&apos;&apos;&apos;&apos;&apos;&apos;:,^^=;=^==;&gt;&lt;+++++++!!!!r!!!!!!++&lt;&lt;;&lt;/s//Ts!&apos;.`.`.`.`...,&lt;?JL*c+*/*c//L)L,-...`....--&apos;__&apos;...`````````.:^&gt;;^,:.`.```&apos;_,,^_&apos;`` ```.--....-.`   </text></g>
+<rect y="331.9" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.590s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.590s"/><set attributeName="opacity" to="0" begin="7.700s"/></rect>
+<clipPath id="r-portrait-70"><rect x="20" y="335.2" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.700s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-70)"><text xml:space="preserve" x="20" y="338.4" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">:&apos;-&apos;&apos;&apos;&apos;&apos;:&apos;:,&lt;cccr;=;&gt;&gt;&gt;+++&lt;+++!!!!!!r!++&lt;+&lt;&lt;&gt;&lt;r/*/c!/?+-`.`.`.`..&apos;_,;&lt;&lt;&lt;=&gt;&gt;==&gt;&gt;*Tr&apos;......---&apos;&apos;::_:-........`.``-&apos;-```.---&apos;-:,,^^=^&apos;``.` ```````..` ```</text></g>
+<rect y="336.2" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.700s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.700s"/><set attributeName="opacity" to="0" begin="7.810s"/></rect>
+<clipPath id="r-portrait-71"><rect x="20" y="339.5" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.810s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-71)"><text xml:space="preserve" x="20" y="342.7" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">&apos;&apos;&apos;:&apos;&apos;--&apos;&lt;/svL?z/*+&gt;&lt;&lt;&gt;&gt;&gt;!r!rrrr!+!!+!!rr!!r+!rcr+&lt;*(}{&lt;...`.``` .,^;:---&apos;::._&gt;&lt;c=&apos;....----&apos;&apos;:_::,&apos;&apos;--.-.......`...`..-&apos;&apos;&apos;_,,_,_^_..-:;;;=^,_:::&apos;..-.`</text></g>
+<rect y="340.5" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.810s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.810s"/><set attributeName="opacity" to="0" begin="7.920s"/></rect>
+<clipPath id="r-portrait-72"><rect x="20" y="343.7" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="7.920s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-72)"><text xml:space="preserve" x="20" y="346.9" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">------&apos;_/F(T/r/TTL?c+r!rcccr**ccr!rrcrc*/zc&gt;^=;&lt;!/s7)|}!.````.`..-,&gt;!;___^__:=!+&lt;:....-..--&apos;&apos;::::__&apos;...........--..-`----:_::,^=_-&apos;::&lt;cc*c+;;^^=^::&apos;:&apos;</text></g>
+<rect y="344.7" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="7.920s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="7.920s"/><set attributeName="opacity" to="0" begin="8.030s"/></rect>
+<clipPath id="r-portrait-73"><rect x="20" y="348.0" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="8.030s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-73)"><text xml:space="preserve" x="20" y="351.2" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">-.-.--:!Js*cz?(F|JL*c*r!rrrrcc***c/z?sLL/&gt;_,&gt;&lt;r?7J?i1}/........``.^**L??/!&lt;!rcv?c_.--&apos;-&apos;&apos;::::&apos;&apos;::__&apos;-...--...-.-&apos;-`.`.&apos;-:,_,:_,:..---_;&lt;+&lt;^,_:&apos;::-&apos;&apos;::</text></g>
+<rect y="349.0" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="8.030s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="8.030s"/><set attributeName="opacity" to="0" begin="8.140s"/></rect>
+<clipPath id="r-portrait-74"><rect x="20" y="352.2" height="4.3" width="0"><animate attributeName="width" from="0" to="330.0" begin="8.140s" dur="0.11s" fill="freeze"/></rect></clipPath>
+<g clip-path="url(#r-portrait-74)"><text xml:space="preserve" x="20" y="355.4" fill="#ffa657" font-size="3.7" textLength="330.0" lengthAdjust="spacing">----&apos;&apos;&apos;_zFFF7Jl31C(z&lt;!*zzLTvTTLLsz/c+&gt;,:,;;+czs(11|;-.`..-......---,Ti|{7Lsv)vC)_--&apos;:___,,,,__,^^^,-.-&apos;--.-----::&apos;..``-&apos;:,^,:-```.--:,^^,^__,,^,_::_,_</text></g>
+<rect y="353.2" width="4.0" height="2.3" fill="#ffa657" opacity="0"><animate attributeName="x" from="20" to="350.0" begin="8.140s" dur="0.11s" fill="freeze"/><set attributeName="opacity" to="0.85" begin="8.140s"/><set attributeName="opacity" to="0" begin="8.250s"/></rect>
+
+      <line x1="0" y1="357.0" x2="370" y2="357.0" stroke="#30363d"/>
+      <text x="20" y="376.0" fill="#7d8590" font-size="13">thdat-vu@github:~$ whoami <tspan fill="#ffa657">Vu Thanh Dat</tspan></text>
+      <rect x="247" y="364.0" width="8" height="14" fill="#ffa657">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </svg>
+  </g>
+
+  <!-- Widget 2: Neofetch terminal -->
+  <g transform="translate(330, 42)" id="widget-neofetch">
+    <svg xmlns="http://www.w3.org/2000/svg" width="456" height="312" viewBox="0 0 490 400" preserveAspectRatio="xMidYMid meet" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <defs>
+        <linearGradient id="infocard-bg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#0d1117"/>
+          <stop offset="1" stop-color="#0d1117"/>
+        </linearGradient>
+      </defs>
+      <rect width="490" height="400" rx="12" fill="url(#infocard-bg)"/>
+      <rect x="0.5" y="0.5" width="489" height="399" rx="12" fill="none" stroke="#30363d"/>
+      <line x1="0" y1="30" x2="490" y2="30" stroke="#30363d"/>
+      <circle cx="20" cy="15" r="5" fill="#ff5f56"/>
+      <circle cx="36" cy="15" r="5" fill="#ffbd2e"/>
+      <circle cx="52" cy="15" r="5" fill="#27c93f"/>
+      <text x="245" y="19" fill="#7d8590" font-size="12" text-anchor="middle">thdat-vu@github: ~$ neofetch</text>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="60.0" font-size="14" font-weight="700">
+          <tspan fill="#3fb950">thdat-vu</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#22d3ee">github</tspan>
+        </text>
+        <line x1="148" y1="56.0" x2="470" y2="56.0" stroke="#30363d" stroke-opacity="0.8"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.15s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="84.0" fill="#ffa657" font-size="12.5" font-weight="700">Now</text>
+        <text x="112" y="84.0" fill="#c9d1d9" font-size="12.5">“seven times down eight times up like the Daruma doll”
+― Chris Bradford, The Way of the Warrior</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.21s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.21s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="108.0" fill="#ffa657" font-size="12.5" font-weight="700">Also</text>
+        <text x="112" y="108.0" fill="#c9d1d9" font-size="12.5">Developer</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.27s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="132.0" fill="#ffa657" font-size="12.5" font-weight="700">Loc</text>
+        <text x="112" y="132.0" fill="#c9d1d9" font-size="12.5">Ho Chi Minh City, Vietnam</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.33s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="156.0" fill="#ffa657" font-size="12.5" font-weight="700">Site</text>
+        <text x="112" y="156.0" fill="#c9d1d9" font-size="12.5">github.com</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.39s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="192.0" fill="#58a6ff" font-size="12.5" font-weight="700">&#8212; Stack</text>
+        <line x1="72" y1="188.0" x2="470" y2="188.0" stroke="#30363d" stroke-opacity="0.8"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.51s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.51s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="216.0" fill="#ffa657" font-size="12.5" font-weight="700">Langs</text>
+        <text x="112" y="216.0" fill="#c9d1d9" font-size="12.5">Java, Python 3, Go, TypeScript</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.57s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.57s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="240.0" fill="#ffa657" font-size="12.5" font-weight="700">Frontend</text>
+        <text x="112" y="240.0" fill="#c9d1d9" font-size="12.5">Next.js</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.63s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.63s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="264.0" fill="#ffa657" font-size="12.5" font-weight="700">Backend</text>
+        <text x="112" y="264.0" fill="#c9d1d9" font-size="12.5">Spring, FastAPI, Gin, PostgreSQL</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.69s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.69s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <text x="20" y="300.0" fill="#58a6ff" font-size="12.5" font-weight="700">&#8212; Highlights</text>
+        <line x1="112" y1="296.0" x2="470" y2="296.0" stroke="#30363d" stroke-opacity="0.8"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.81s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.81s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <circle cx="23" cy="320.0" r="2.5" fill="#3fb950"/>
+        <text x="34" y="324.0" fill="#c9d1d9" font-size="12.5">25 public repos, 13 followers</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.87s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.87s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+
+      <g opacity="0" transform="translate(0,5)">
+        <circle cx="23" cy="344.0" r="2.5" fill="#3fb950"/>
+        <text x="34" y="348.0" fill="#c9d1d9" font-size="12.5">Active developer with 3 total stars</text>
+        <animate attributeName="opacity" from="0" to="1" begin="0.93s" dur="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.93s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      </g>
+    </svg>
+  </g>
+
+  <!-- Widget 3: Contributions Graph terminal -->
+  <g transform="translate(48, 368)" id="widget-contributions">
+    <svg xmlns="http://www.w3.org/2000/svg" width="704" height="240" viewBox="0 0 704 240" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <defs>
+        <linearGradient id="heatmap-bg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#0d1420"/>
+          <stop offset="1" stop-color="#0d1117"/>
+        </linearGradient>
+      </defs>
+      <rect width="704" height="240" rx="12" fill="url(#heatmap-bg)"/>
+      <rect x="0.5" y="0.5" width="703" height="239" rx="12" fill="none" stroke="#30363d" stroke-width="1" stroke-opacity="0.55"/>
+      <line x1="0" y1="30" x2="704" y2="30" stroke="#30363d" stroke-opacity="0.35"/>
+      <circle cx="22" cy="15" r="5" fill="#ff5f56"/>
+      <circle cx="38" cy="15" r="5" fill="#ffbd2e"/>
+      <circle cx="54" cy="15" r="5" fill="#27c93f"/>
+      <text x="352" y="19" fill="#7d8590" font-size="12" text-anchor="middle">thdat-vu@github: ~/contributions --graph</text>
+
+<text x="52.00" y="44" fill="#7d8590" font-size="10">Sep</text>
+<text x="87.80" y="44" fill="#7d8590" font-size="10">Oct</text>
+<text x="123.59" y="44" fill="#7d8590" font-size="10">Nov</text>
+<text x="183.25" y="44" fill="#7d8590" font-size="10">Dec</text>
+<text x="230.98" y="44" fill="#7d8590" font-size="10">Jan</text>
+<text x="290.64" y="44" fill="#7d8590" font-size="10">Feb</text>
+<text x="338.36" y="44" fill="#7d8590" font-size="10">Mar</text>
+<text x="386.09" y="44" fill="#7d8590" font-size="10">Apr</text>
+<text x="433.82" y="44" fill="#7d8590" font-size="10">May</text>
+<text x="493.48" y="44" fill="#7d8590" font-size="10">Jun</text>
+<text x="541.20" y="44" fill="#7d8590" font-size="10">Jul</text>
+<text x="588.93" y="44" fill="#7d8590" font-size="10">Aug</text>
+<text x="648.59" y="44" fill="#7d8590" font-size="10">Sep</text>
+
+      <text x="22" y="69.4" fill="#7d8590" font-size="9">Mon</text>
+      <text x="22" y="93.2" fill="#7d8590" font-size="9">Wed</text>
+      <text x="22" y="117.1" fill="#7d8590" font-size="9">Fri</text>
+
+<rect class="c-heatmap" style="animation-delay:0.000s" x="52.00" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-09-14: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.045s" x="52.00" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-15: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.090s" x="52.00" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-16: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.135s" x="52.00" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-17: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.180s" x="52.00" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-18: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.225s" x="52.00" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-19: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.270s" x="52.00" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-20: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.018s" x="63.93" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-21: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.063s" x="63.93" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-22: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.108s" x="63.93" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-23: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.153s" x="63.93" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-24: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.198s" x="63.93" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-25: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.243s" x="63.93" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-26: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.288s" x="63.93" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-27: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.036s" x="75.86" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-28: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.081s" x="75.86" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-29: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.126s" x="75.86" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-09-30: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.171s" x="75.86" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-01: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.216s" x="75.86" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-02: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.261s" x="75.86" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-03: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.306s" x="75.86" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-04: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.054s" x="87.80" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-05: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.099s" x="87.80" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-06: 7 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.144s" x="87.80" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-07: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.189s" x="87.80" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-08: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.234s" x="87.80" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-09: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.279s" x="87.80" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-10: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.324s" x="87.80" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-11: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.072s" x="99.73" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-12: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.117s" x="99.73" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-13: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.162s" x="99.73" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-14: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.207s" x="99.73" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-15: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.252s" x="99.73" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-16: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.297s" x="99.73" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-17: 6 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.342s" x="99.73" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-18: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.090s" x="111.66" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-19: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.135s" x="111.66" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-20: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.180s" x="111.66" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-21: 14 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.225s" x="111.66" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-22: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.270s" x="111.66" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2025-10-23: 18 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.315s" x="111.66" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-24: 17 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.360s" x="111.66" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-25: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.108s" x="123.59" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-26: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.153s" x="123.59" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-10-27: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.198s" x="123.59" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-28: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.243s" x="123.59" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-29: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.288s" x="123.59" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-30: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.333s" x="123.59" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-10-31: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.378s" x="123.59" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-01: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.126s" x="135.52" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-02: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.171s" x="135.52" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-03: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.216s" x="135.52" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-04: 9 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.261s" x="135.52" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-05: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.306s" x="135.52" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-06: 6 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.351s" x="135.52" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-07: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.396s" x="135.52" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-08: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.144s" x="147.45" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-09: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.189s" x="147.45" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-10: 7 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.234s" x="147.45" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-11: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.279s" x="147.45" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-12: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.324s" x="147.45" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2025-11-13: 20 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.369s" x="147.45" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-14: 13 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.414s" x="147.45" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-15: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.162s" x="159.39" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-16: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.207s" x="159.39" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-17: 17 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.252s" x="159.39" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-18: 9 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.297s" x="159.39" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-19: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.342s" x="159.39" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-20: 15 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.387s" x="159.39" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-21: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.432s" x="159.39" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-22: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.180s" x="171.32" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-23: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.225s" x="171.32" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-24: 13 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.270s" x="171.32" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-25: 7 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.315s" x="171.32" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-26: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.360s" x="171.32" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2025-11-27: 25 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.405s" x="171.32" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-28: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.450s" x="171.32" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-11-29: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.198s" x="183.25" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-11-30: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.243s" x="183.25" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-01: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.288s" x="183.25" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-02: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.333s" x="183.25" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-03: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.378s" x="183.25" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-04: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.423s" x="183.25" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-05: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.468s" x="183.25" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-06: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.216s" x="195.18" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-07: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.261s" x="195.18" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-08: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.306s" x="195.18" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-09: 9 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.351s" x="195.18" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2025-12-10: 43 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.396s" x="195.18" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-11: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.441s" x="195.18" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-12: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.486s" x="195.18" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-13: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.234s" x="207.11" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-14: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.279s" x="207.11" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-15: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.324s" x="207.11" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-16: 7 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.369s" x="207.11" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-17: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.414s" x="207.11" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-18: 13 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.459s" x="207.11" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-19: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.504s" x="207.11" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-20: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.252s" x="219.05" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-21: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.297s" x="219.05" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-22: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.342s" x="219.05" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-23: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.387s" x="219.05" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-24: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.432s" x="219.05" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-25: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.477s" x="219.05" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-26: 15 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.522s" x="219.05" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-27: 14 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.270s" x="230.98" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-28: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.315s" x="230.98" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-29: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.360s" x="230.98" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2025-12-30: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.405s" x="230.98" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2025-12-31: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.450s" x="230.98" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-01: 6 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.495s" x="230.98" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-02: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.540s" x="230.98" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-01-03: 18 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.288s" x="242.91" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-04: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.333s" x="242.91" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-05: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.378s" x="242.91" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-01-06: 21 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.423s" x="242.91" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-07: 9 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.468s" x="242.91" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-08: 13 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.513s" x="242.91" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-09: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.558s" x="242.91" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-10: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.306s" x="254.84" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-11: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.351s" x="254.84" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-12: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.396s" x="254.84" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-13: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.441s" x="254.84" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-14: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.486s" x="254.84" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-15: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.531s" x="254.84" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-16: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.576s" x="254.84" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-17: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.324s" x="266.77" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-18: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.369s" x="266.77" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-19: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.414s" x="266.77" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-20: 14 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.459s" x="266.77" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-21: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.504s" x="266.77" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-22: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.549s" x="266.77" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-23: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.594s" x="266.77" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-24: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.342s" x="278.70" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-25: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.387s" x="278.70" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-01-26: 32 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.432s" x="278.70" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-01-27: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.477s" x="278.70" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-28: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.522s" x="278.70" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-29: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.567s" x="278.70" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-30: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.612s" x="278.70" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-01-31: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.360s" x="290.64" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-01: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.405s" x="290.64" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-02: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.450s" x="290.64" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-03: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.495s" x="290.64" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-04: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.540s" x="290.64" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-05: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.585s" x="290.64" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-06: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.630s" x="290.64" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-07: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.378s" x="302.57" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-08: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.423s" x="302.57" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-02-09: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.468s" x="302.57" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-10: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.513s" x="302.57" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-02-11: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.558s" x="302.57" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-02-12: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.603s" x="302.57" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-13: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.648s" x="302.57" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-14: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.396s" x="314.50" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-15: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.441s" x="314.50" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-16: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.486s" x="314.50" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-17: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.531s" x="314.50" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-18: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.576s" x="314.50" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-19: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.621s" x="314.50" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-20: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.666s" x="314.50" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-21: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.414s" x="326.43" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-22: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.459s" x="326.43" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-23: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.504s" x="326.43" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-24: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.549s" x="326.43" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-25: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.594s" x="326.43" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-26: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.639s" x="326.43" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-27: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.684s" x="326.43" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-02-28: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.432s" x="338.36" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-01: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.477s" x="338.36" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-02: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.522s" x="338.36" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-03: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.567s" x="338.36" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-04: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.612s" x="338.36" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-05: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.657s" x="338.36" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-06: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.702s" x="338.36" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-07: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.450s" x="350.30" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-08: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.495s" x="350.30" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-09: 12 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.540s" x="350.30" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-10: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.585s" x="350.30" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-11: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.630s" x="350.30" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-12: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.675s" x="350.30" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-13: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.720s" x="350.30" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-14: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.468s" x="362.23" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-15: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.513s" x="362.23" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-16: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.558s" x="362.23" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-17: 9 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.603s" x="362.23" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-18: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.648s" x="362.23" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-19: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.693s" x="362.23" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-20: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.738s" x="362.23" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-21: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.486s" x="374.16" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-22: 12 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.531s" x="374.16" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-23: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.576s" x="374.16" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-03-24: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.621s" x="374.16" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-25: 17 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.666s" x="374.16" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-26: 7 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.711s" x="374.16" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-03-27: 31 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.756s" x="374.16" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-28: 14 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.504s" x="386.09" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-29: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.549s" x="386.09" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-03-30: 23 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.594s" x="386.09" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-03-31: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.639s" x="386.09" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-01: 9 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.684s" x="386.09" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-02: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.729s" x="386.09" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-03: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.774s" x="386.09" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-04: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.522s" x="398.02" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-05: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.567s" x="398.02" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-04-06: 20 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.612s" x="398.02" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-07: 17 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.657s" x="398.02" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-08: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.702s" x="398.02" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-09: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.747s" x="398.02" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-10: 14 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.792s" x="398.02" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-11: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.540s" x="409.95" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-12: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.585s" x="409.95" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-13: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.630s" x="409.95" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-14: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.675s" x="409.95" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-04-15: 37 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.720s" x="409.95" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-04-16: 27 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.765s" x="409.95" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-17: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.810s" x="409.95" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-04-18: 36 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.558s" x="421.89" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-04-19: 38 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.603s" x="421.89" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-04-20: 29 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.648s" x="421.89" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-04-21: 120 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.693s" x="421.89" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-22: 12 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.738s" x="421.89" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-04-23: 18 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.783s" x="421.89" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-04-24: 25 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.828s" x="421.89" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-04-25: 52 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.576s" x="433.82" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-04-26: 35 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.621s" x="433.82" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-04-27: 25 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.666s" x="433.82" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-28: 16 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.711s" x="433.82" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-29: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.756s" x="433.82" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-04-30: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.801s" x="433.82" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-05-01: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.846s" x="433.82" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-02: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.594s" x="445.75" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-03: 6 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.639s" x="445.75" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-05-04: 30 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.684s" x="445.75" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-05: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.729s" x="445.75" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-06: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.774s" x="445.75" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-07: 7 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.819s" x="445.75" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-05-08: 54 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.864s" x="445.75" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-05-09: 113 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.612s" x="457.68" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-10: 16 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.657s" x="457.68" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-05-11: 33 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.702s" x="457.68" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-05-12: 27 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.747s" x="457.68" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-05-13: 82 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.792s" x="457.68" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-05-14: 28 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.837s" x="457.68" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-05-15: 31 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.882s" x="457.68" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-05-16: 36 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.630s" x="469.61" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-17: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.675s" x="469.61" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-05-18: 22 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.720s" x="469.61" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-05-19: 44 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.765s" x="469.61" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-05-20: 42 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.810s" x="469.61" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-05-21: 38 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.855s" x="469.61" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-22: 11 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.900s" x="469.61" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-05-23: 71 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.648s" x="481.55" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-05-24: 65 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.693s" x="481.55" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-05-25: 20 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.738s" x="481.55" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-05-26: 63 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.783s" x="481.55" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#26a641"><title>2026-05-27: 37 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.828s" x="481.55" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-05-28: 62 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.873s" x="481.55" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#39d353"><title>2026-05-29: 58 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.918s" x="481.55" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-05-30: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.666s" x="493.48" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-05-31: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.711s" x="493.48" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-01: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.756s" x="493.48" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-02: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.801s" x="493.48" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-06-03: 20 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.846s" x="493.48" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-04: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.891s" x="493.48" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-05: 12 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.936s" x="493.48" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-06: 15 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.684s" x="505.41" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-07: 7 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.729s" x="505.41" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-06-08: 32 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.774s" x="505.41" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-09: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.819s" x="505.41" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-10: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.864s" x="505.41" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-11: 6 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.909s" x="505.41" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-12: 15 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.954s" x="505.41" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-13: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.702s" x="517.34" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-14: 9 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.747s" x="517.34" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-15: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.792s" x="517.34" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-16: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.837s" x="517.34" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-17: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.882s" x="517.34" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-18: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.927s" x="517.34" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-19: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.972s" x="517.34" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-20: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.720s" x="529.27" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-21: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.765s" x="529.27" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-22: 14 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.810s" x="529.27" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-23: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.855s" x="529.27" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-24: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.900s" x="529.27" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-25: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.945s" x="529.27" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-26: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.990s" x="529.27" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-27: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.738s" x="541.20" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-28: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.783s" x="541.20" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-06-29: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.828s" x="541.20" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-06-30: 6 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.873s" x="541.20" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-01: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.918s" x="541.20" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-07-02: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.963s" x="541.20" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-03: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.008s" x="541.20" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-04: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.756s" x="553.14" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-05: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.801s" x="553.14" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-06: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.846s" x="553.14" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-07: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.891s" x="553.14" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-08: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.936s" x="553.14" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-09: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.981s" x="553.14" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-10: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.026s" x="553.14" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-11: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.774s" x="565.07" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-12: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.819s" x="565.07" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-13: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.864s" x="565.07" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-14: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.909s" x="565.07" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-15: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.954s" x="565.07" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-07-16: 6 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.999s" x="565.07" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-07-17: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.044s" x="565.07" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-18: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.792s" x="577.00" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-19: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.837s" x="577.00" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-20: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.882s" x="577.00" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-21: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.927s" x="577.00" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-22: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.972s" x="577.00" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-23: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.017s" x="577.00" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-24: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.062s" x="577.00" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-25: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.810s" x="588.93" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-26: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.855s" x="588.93" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-07-27: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.900s" x="588.93" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-07-28: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.945s" x="588.93" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-07-29: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.990s" x="588.93" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-07-30: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.035s" x="588.93" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-07-31: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.080s" x="588.93" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-01: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.828s" x="600.86" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-02: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.873s" x="600.86" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-08-03: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.918s" x="600.86" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-04: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.963s" x="600.86" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-05: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.008s" x="600.86" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-06: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.053s" x="600.86" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-07: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.098s" x="600.86" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-08-08: 12 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.846s" x="612.80" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-08-09: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.891s" x="612.80" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-10: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.936s" x="612.80" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-11: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.981s" x="612.80" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-12: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.026s" x="612.80" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-13: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.071s" x="612.80" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-14: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.116s" x="612.80" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-08-15: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.864s" x="624.73" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-16: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.909s" x="624.73" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-08-17: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.954s" x="624.73" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-18: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.999s" x="624.73" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-19: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.044s" x="624.73" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-20: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.089s" x="624.73" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-21: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.134s" x="624.73" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-22: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.882s" x="636.66" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-23: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.927s" x="636.66" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#006d32"><title>2026-08-24: 21 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.972s" x="636.66" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-25: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.017s" x="636.66" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-08-26: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.062s" x="636.66" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-08-27: 6 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.107s" x="636.66" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-08-28: 10 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.152s" x="636.66" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-29: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.900s" x="648.59" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-30: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.945s" x="648.59" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-08-31: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.990s" x="648.59" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-09-01: 1 contribution</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.035s" x="648.59" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-02: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.080s" x="648.59" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-03: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.125s" x="648.59" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-04: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.170s" x="648.59" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-05: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.918s" x="660.52" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-09-06: 2 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.963s" x="660.52" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-07: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.008s" x="660.52" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-08: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.053s" x="660.52" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-09: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.098s" x="660.52" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-10: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.143s" x="660.52" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-11: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.188s" x="660.52" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-09-12: 3 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.936s" x="672.45" y="50.00" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-13: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:0.981s" x="672.45" y="61.93" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-14: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.026s" x="672.45" y="73.86" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-15: 0 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.071s" x="672.45" y="85.80" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-09-16: 4 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.116s" x="672.45" y="97.73" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-09-17: 8 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.161s" x="672.45" y="109.66" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#0e4429"><title>2026-09-18: 5 contributions</title></rect>
+<rect class="c-heatmap" style="animation-delay:1.206s" x="672.45" y="121.59" width="9.545454545454545" height="9.545454545454545" rx="2.5" fill="#161b22"><title>2026-09-19: 0 contributions</title></rect>
+
+      <text x="572.795" y="147.2" fill="#7d8590" font-size="10" text-anchor="end">Less</text>
+      <rect x="578.795" y="139.52" width="9.545" height="9.545" rx="2.2" fill="#161b22"/>
+      <rect x="590.727" y="139.52" width="9.545" height="9.545" rx="2.2" fill="#0e4429"/>
+      <rect x="602.659" y="139.52" width="9.545" height="9.545" rx="2.2" fill="#006d32"/>
+      <rect x="614.590" y="139.52" width="9.545" height="9.545" rx="2.2" fill="#26a641"/>
+      <rect x="626.522" y="139.52" width="9.545" height="9.545" rx="2.2" fill="#39d353"/>
+      <rect x="638.454" y="139.52" width="9.545" height="9.545" rx="2.2" fill="#69f0a0"/>
+      <text x="682" y="147.2" fill="#7d8590" font-size="10" text-anchor="end">More</text>
+
+      <line x1="0" y1="163.068" x2="704" y2="163.068" stroke="#30363d" stroke-opacity="0.25"/>
+      <text x="22" y="187.068" font-size="13" fill="#39d353">
+        <tspan font-weight="700">2,783</tspan><tspan fill="#7d8590"> contributions in the last year</tspan>
+      </text>
+      <text x="682" y="187.068" font-size="12" fill="#7d8590" text-anchor="end">Sep 14, 2025 &#8594; Sep 19, 2026</text>
+      <text x="22" y="211.068" font-size="13" fill="#7d8590">
+        current streak <tspan fill="#ffa657" font-weight="700">3 days</tspan><tspan fill="#7d8590">   &#183;   longest </tspan><tspan fill="#ffa657" font-weight="700">37 days</tspan>
+      </text>
+      <text x="682" y="211.068" font-size="12" fill="#7d8590" text-anchor="end">best day <tspan fill="#f2cc60" font-weight="700">120</tspan> on Apr 21, 2026</text>
+    </svg>
+  </g>
+</svg>
