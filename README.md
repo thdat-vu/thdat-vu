@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/thdatvu2404/">LinkedIn</a>
-  ·
-  <a href="mailto:vuthanhdat181@gmail.com">Email</a>
-  ·
-  <a href="https://x.com/DatVT2404">X</a>
+  <a href="mailto:vuthanhdat181@gmail.com"><img src="./icons/email.svg" alt="Email" width="20" height="20" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/thdatvu2404/" target="_blank" rel="noopener noreferrer"><img src="./icons/linkedin.svg" alt="LinkedIn" width="20" height="20" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://x.com/DatVT2404" target="_blank" rel="noopener noreferrer"><img src="./icons/x.svg" alt="X" width="20" height="20" /></a>
 </p>
 
 ## About
@@ -20,13 +20,3 @@ I'm **Vu Thanh Dat** (ヴ・タイン・ダット), a full-stack software engine
 
 - Exploring opportunities and side projects with Java/Spring Boot, Python/FastAPI, and Go/Gin.
 - Interested in well-designed systems, practical developer tooling, and products that make a real difference.
-
-## Stack
-
-`Go` · `Python` · `Java` · `TypeScript` · `Gin` · `FastAPI` · `Spring Boot` · `Next.js` · `React` · `PostgreSQL` · `MongoDB` · `Supabase` · `Redis` · `Docker` · `GCP`
-
----
-
-<p align="center">
-  <i>“Engineering (n): change the world and have a dream life.”</i>
-</p>

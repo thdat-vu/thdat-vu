@@ -223,6 +223,7 @@ def generate_svg(config, gh_user):
 
     # Widget 2: Neofetch info lines
     now_text = escape_xml(neofetch.get("now", "“seven times down eight times up like the Daruma doll”\n― Chris Bradford, The Way of the Warrior"))
+    now_font_size = "10.2" if len(now_text) > 48 else "12.5"
     also_text = escape_xml(neofetch.get("also", "Developer"))
     loc_text = escape_xml(neofetch.get("loc", "Ho Chi Minh City, Vietnam"))
     site_text = escape_xml(neofetch.get("site", "github.com"))
@@ -383,7 +384,7 @@ def generate_svg(config, gh_user):
 
       <g opacity="0" transform="translate(0,5)">
         <text x="20" y="84.0" fill="#ffa657" font-size="12.5" font-weight="700">Now</text>
-        <text x="112" y="84.0" fill="#c9d1d9" font-size="12.5">{now_text}</text>
+        <text x="112" y="84.0" fill="#c9d1d9" font-size="{now_font_size}">{now_text}</text>
         <animate attributeName="opacity" from="0" to="1" begin="0.21s" dur="0.4s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.21s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
       </g>
