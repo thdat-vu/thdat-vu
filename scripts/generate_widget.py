@@ -228,7 +228,9 @@ def generate_svg(config, gh_user):
     now_font_size = "10.2" if len(now_text) > 48 else "12.5"
     also_text = escape_xml(neofetch.get("also", "Developer"))
     loc_text = escape_xml(neofetch.get("loc", "Ho Chi Minh City, Vietnam"))
-    site_text = escape_xml(neofetch.get("site", "github.com"))
+    site_raw = neofetch.get("site", "https://thdatvu.vercel.app/")
+    site_url = site_raw if site_raw.startswith("http") else f"https://{site_raw}"
+    site_text = escape_xml(site_raw)
     stack = neofetch.get("stack", {})
     langs_text = escape_xml(stack.get("Langs", "Java, Python 3, Go, TypeScript"))
     fe_text = escape_xml(stack.get("Frontend", "Next.js"))
@@ -407,7 +409,7 @@ def generate_svg(config, gh_user):
 
       <g opacity="0" transform="translate(0,5)">
         <text x="20" y="156.0" fill="#ffa657" font-size="12.5" font-weight="700">Site</text>
-        <text x="112" y="156.0" fill="#c9d1d9" font-size="12.5">{site_text}</text>
+        <a href="{site_url}" target="_blank" rel="noopener noreferrer" style="cursor:pointer;"><text x="112" y="156.0" fill="#58a6ff" font-size="12.5" text-decoration="underline">{site_text}</text></a>
         <animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.4s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.39s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
       </g>
