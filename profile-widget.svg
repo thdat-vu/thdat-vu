@@ -273,7 +273,7 @@
 
       <line x1="0" y1="357.0" x2="370" y2="357.0" stroke="#30363d"/>
       <text x="20" y="376.0" fill="#7d8590" font-size="13">thdat-vu@github:~$ whoami <tspan fill="#ffa657">Vu Thanh Dat</tspan></text>
-      <rect x="247" y="364.0" width="8" height="14" fill="#ffa657">
+      <rect x="324" y="364.0" width="8" height="14" fill="#ffa657">
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
       </rect>
     </svg>

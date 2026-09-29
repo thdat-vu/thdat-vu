@@ -166,6 +166,8 @@ def escape_xml(s):
 def generate_svg(config, gh_user):
     username = config.get("username", "thdat-vu")
     display_name = config.get("name", "Vu Thanh Dat")
+    whoami_full_text = f"{username}@github:~$ whoami {display_name}"
+    whoami_cursor_x = round(20 + len(whoami_full_text) * 7.85) + 6
     neofetch = config.get("neofetch", {})
     portrait_lines = config.get("portrait_lines", [])
 
@@ -350,7 +352,7 @@ def generate_svg(config, gh_user):
 
       <line x1="0" y1="357.0" x2="370" y2="357.0" stroke="#30363d"/>
       <text x="20" y="376.0" fill="#7d8590" font-size="13">{username}@github:~$ whoami <tspan fill="#ffa657">{display_name}</tspan></text>
-      <rect x="247" y="364.0" width="8" height="14" fill="#ffa657">
+      <rect x="{whoami_cursor_x}" y="364.0" width="8" height="14" fill="#ffa657">
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
       </rect>
     </svg>
