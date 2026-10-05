@@ -16,7 +16,7 @@
 
 ## About
 
-I'm **Vu Thanh Dat** (ヴ・タイン・ダット), a backend engineer who enjoys turning clear logic into dependable products. I build with care, learn by shipping, and pay attention to the edge cases.
+I'm **Vu Thanh Dat** (ブタインダット), a backend engineer who enjoys turning clear logic into dependable products. I build with care, learn by shipping, and pay attention to the edge cases.
 
 - Exploring opportunities and side projects with Java/Spring Boot, Python/FastAPI, and Go/Gin.
 - Interested in well-designed systems, practical developer tooling, and products that make a real difference.
